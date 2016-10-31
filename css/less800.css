@@ -1,0 +1,7 @@
+@media screen and (max-width:800px) {
+  .title-logo {
+    margin-top: 20px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
