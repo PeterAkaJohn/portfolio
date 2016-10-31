@@ -1,8 +1,9 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #2d3c49;
   font-weight: 400;
+  background-color: #30383B;
+  color: #C2C2C2;
 }
 
 hr {
@@ -41,6 +42,7 @@ img {
 .card {
   transform: translateZ(0);
   background: 0 0;
+  background-color: #3B4447;
   transition: all 225ms;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
@@ -50,19 +52,19 @@ img {
 }
 
 .title-logo {
-  margin-top: 40px;
+  margin-top: 20px;
   max-height: 50%;
   max-width: 50%;
 }
 
 .navbar.navbar-inverse {
-    border: none;
-    border-radius: 0;
-    background-color: #02b3e4;
-    background: #02b3e4;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  border-radius: 0;
+  background-color: #2572DE;
+  background: #2572DE;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -76,4 +78,8 @@ img {
 
 .navbar-inverse .navbar-brand {
   color: white;
+}
+
+.modal-content {
+  color: black;
 }
