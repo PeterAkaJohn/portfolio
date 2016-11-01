@@ -10,3 +10,5 @@
  * modify layout with the use of bootstrap
 
  * add some functionality with gulp (resizing image, minify css and so on)
+
+ * add contact section

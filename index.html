@@ -4,115 +4,121 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title">
         <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
         <link rel="stylesheet" href="css/less800.css" media="screen" title="no title">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
-
     </head>
-    <body>
-      <nav class="navbar navbar-inverse">
-
-          <div class="container-fluid">
-
-              <div class="navbar-header">
-
-                  <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#nav-collapse" data-toggle="collapse" type="button">
-
-                      <span class="sr-only">
-                          Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-
-                  </button>
-
-                  <a class="navbar-brand" href="#">
-                      Portfolio
-                  </a>
-
-              </div>
-
-              <div class="collapse navbar-collapse" id="nav-collapse">
-
-                  <ul class="nav navbar-nav">
-                      <li>
-                          <a href="#">Home</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-
-      </nav>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                  <picture>
-                    <source srcset="http://placehold.it/200x200" media="(max-width:800px)">
-                    <img class="title-logo img-responsive" src="http://www.placehold.it/100x100" alt="Website logo">
-                  </picture>
+    <body data-spy="scroll" data-target="#navbar-custom">
+        <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top" id="navbar-custom">
+            <div class="container">
+                <div class="navbar-header">
+                    <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#nav-collapse" data-toggle="collapse" type="button">
+                        <span class="sr-only">
+                            Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        Portfolio
+                    </a>
                 </div>
-                <div class="col-md-9 text-right text-uppercase">
-                    <h1 class="title-super text-thin">Pierpaolo Iannone</h1>
-                    <h4>Front-end Ninja</h4>
+                <div class="collapse navbar-collapse" id="nav-collapse">
+                    <ul class="nav pull-right navbar-nav text-uppercase">
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-12">
+        </nav>
+        <header class="intro" id="about">
+          <div class="grayscale_background"></div>
+            <section class="intro-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center text-uppercase">
+                            <h1 class="title-super text-thin">Pierpaolo Iannone</h1>
+                            <h4>Front-end Ninja</h4>
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <section class="projects-section" id="projects">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-xs-12">
                     <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <picture>
-                        <source srcset="http://placehold.it/1400x600" media="(max-width:800px)" sizes="100vw">
-                        <img class="img-responsive" src="http://www.placehold.it/1140x450" alt="Main image that covers the entire container's width">
-                    </picture>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-capitalize text-muted">Featured Work</h2>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-xs-12 col-md-4">
-                  <div class="card hoverable" data-toggle="modal" data-target="#project1">
-                    <picture>
-                      <source srcset="http://placehold.it/1000x400" media="(max-width:993px)" sizes="100vw">
-                        <img class="img-responsive image-spacing" src="http://www.placehold.it/555x300" alt="clickable project's image">
-                      </picture>
-                      <h3 class="text-uppercase">Appify</h3>
-                      <p>
-                        <a href="http://github.com/">Link to project</a>
-                      </p>
                   </div>
                 </div>
-                <div class="col-xs-12 col-md-4">
-                  <div class="card hoverable" data-toggle="modal" data-target="#project1">
+                <div class="row">
+                  <div class="col-md-12">
                     <picture>
-                      <source srcset="http://placehold.it/1000x400" media="(max-width:993px)" sizes="100vw">
-                        <img class="img-responsive image-spacing" src="http://www.placehold.it/555x300" alt="clickable project's image">
+                      <source srcset="http://placehold.it/1400x600" media="(max-width:800px)">
+                        <img class="img-responsive" src="http://www.placehold.it/1800x600" alt="Main image that covers the entire container's width">
                       </picture>
-                      <h3 class="text-uppercase">Appify</h3>
-                      <p>
-                        <a href="http://github.com/">Link to project</a>
-                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="col-xs-12 col-md-4">
-                  <div class="card hoverable" data-toggle="modal" data-target="#project1">
-                    <picture>
-                      <source srcset="http://placehold.it/1000x400" media="(max-width:993px)" sizes="100vw">
-                        <img class="img-responsive image-spacing" src="http://www.placehold.it/555x300" alt="clickable project's image">
-                      </picture>
-                      <h3 class="text-uppercase">Appify</h3>
-                      <p>
-                        <a href="http://github.com/">Link to project</a>
-                      </p>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h2 class="text-capitalize text-muted">Featured Work</h2>
+                    </div>
                   </div>
+                  <div class="row text-center">
+                    <div class="col-xs-12 col-md-4">
+                      <div class="card hoverable" data-toggle="modal" data-target="#project1">
+                        <picture class="rounded-corners">
+                          <source srcset="http://placehold.it/1000x400" media="(max-width:993px)">
+                            <img class="img-responsive image-spacing rounded-corners" src="http://www.placehold.it/555x300" alt="clickable project's image">
+                          </picture>
+                          <h3 class="text-uppercase">Project</h3>
+                          <p>
+                            <a href="https://github.com/">Link to project</a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+                        <div class="card hoverable" data-toggle="modal" data-target="#project1">
+                          <picture class="rounded-corners">
+                            <source srcset="http://placehold.it/1000x400" media="(max-width:993px)">
+                              <img class="img-responsive image-spacing rounded-corners" src="http://www.placehold.it/555x300" alt="clickable project's image">
+                            </picture>
+                            <h3 class="text-uppercase">Project</h3>
+                            <p>
+                              <a href="http://github.com/">Link to project</a>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                          <div class="card hoverable" data-toggle="modal" data-target="#project1">
+                            <picture>
+                              <source srcset="http://placehold.it/1000x400" media="(max-width:993px)">
+                                <img class="img-responsive image-spacing rounded-corners" src="http://www.placehold.it/555x300" alt="clickable project's image">
+                              </picture>
+                              <h3 class="text-uppercase">Project</h3>
+                              <p>
+                                <a href="http://github.com/">Link to project</a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                    <cite>Created by Pierpaolo Iannone</cite>
                 </div>
-            </div>
+            </footer>
         </div>
         <!-- Modal -->
         <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -133,5 +139,6 @@
         </div>
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/util.js"></script>
     </body>
 </html>
