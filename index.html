@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
         <link rel="stylesheet" href="css/less800.css" media="screen" title="no title">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" title="no title">
     </head>
     <body data-spy="scroll" data-target="#navbar-custom">
         <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top" id="navbar-custom">
@@ -41,10 +42,14 @@
             </div>
         </nav>
         <header class="intro" id="about">
-          <div class="grayscale_background"></div>
+            <div class="grayscale_background"></div>
             <section class="intro-body">
                 <div class="container">
                     <div class="row">
+                        <picture>
+                            <source srcset="images/random-logo.svg">
+                            <img class="img-responsive logo" src="images/random-logo.png" alt="Logo"/>
+                        </picture>
                         <div class="col-md-12 text-center text-uppercase">
                             <h1 class="title-super text-thin">Pierpaolo Iannone</h1>
                             <h4>Front-end Ninja</h4>
@@ -53,66 +58,89 @@
                 </section>
             </header>
             <section class="projects-section" id="projects">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <hr>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <picture>
-                      <source srcset="http://placehold.it/1400x600" media="(max-width:800px)">
-                        <img class="img-responsive" src="http://www.placehold.it/1800x600" alt="Main image that covers the entire container's width">
-                      </picture>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <hr>
+                        </div>
                     </div>
-                  </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <picture>
+                                <source srcset="https://placehold.it/1400x600" media="(max-width:800px)">
+                                <img class="img-responsive" src="https://www.placehold.it/1800x600" alt="Main image that covers the entire container's width">
+                            </picture>
+                        </div>
+                    </div>
                 </div>
                 <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <h2 class="text-capitalize text-muted">Featured Work</h2>
-                    </div>
-                  </div>
-                  <div class="row text-center">
-                    <div class="col-xs-12 col-md-4">
-                      <div class="card hoverable" data-toggle="modal" data-target="#project1">
-                        <picture class="rounded-corners">
-                          <source srcset="http://placehold.it/1000x400" media="(max-width:993px)">
-                            <img class="img-responsive image-spacing rounded-corners" src="http://www.placehold.it/555x300" alt="clickable project's image">
-                          </picture>
-                          <h3 class="text-uppercase">Project</h3>
-                          <p>
-                            <a href="https://github.com/">Link to project</a>
-                          </p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="text-capitalize text-muted">Featured Work</h2>
                         </div>
-                      </div>
-                      <div class="col-xs-12 col-md-4">
-                        <div class="card hoverable" data-toggle="modal" data-target="#project1">
-                          <picture class="rounded-corners">
-                            <source srcset="http://placehold.it/1000x400" media="(max-width:993px)">
-                              <img class="img-responsive image-spacing rounded-corners" src="http://www.placehold.it/555x300" alt="clickable project's image">
-                            </picture>
-                            <h3 class="text-uppercase">Project</h3>
-                            <p>
-                              <a href="http://github.com/">Link to project</a>
-                            </p>
-                          </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-xs-12 col-md-4">
+                            <div class="card hoverable" data-toggle="modal" data-target="#project1">
+                                <picture class="rounded-corners">
+                                    <source srcset="https://placehold.it/1000x400" media="(max-width:993px)">
+                                    <img class="img-responsive image-spacing rounded-corners" src="https://www.placehold.it/555x300" alt="clickable project's image">
+                                </picture>
+                                <h3 class="text-uppercase">Project</h3>
+                                <p>
+                                    <a href="https://github.com/">Link to project</a>
+                                </p>
+                            </div>
                         </div>
                         <div class="col-xs-12 col-md-4">
-                          <div class="card hoverable" data-toggle="modal" data-target="#project1">
-                            <picture>
-                              <source srcset="http://placehold.it/1000x400" media="(max-width:993px)">
-                                <img class="img-responsive image-spacing rounded-corners" src="http://www.placehold.it/555x300" alt="clickable project's image">
-                              </picture>
-                              <h3 class="text-uppercase">Project</h3>
-                              <p>
-                                <a href="http://github.com/">Link to project</a>
-                              </p>
+                            <div class="card hoverable" data-toggle="modal" data-target="#project1">
+                                <picture class="rounded-corners">
+                                    <source srcset="https://placehold.it/1000x400" media="(max-width:993px)">
+                                    <img class="img-responsive image-spacing rounded-corners" src="https://www.placehold.it/555x300" alt="clickable project's image">
+                                </picture>
+                                <h3 class="text-uppercase">Project</h3>
+                                <p>
+                                    <a href="http://github.com/">Link to project</a>
+                                </p>
                             </div>
-                          </div>
                         </div>
-                      </div>
+                        <div class="col-xs-12 col-md-4">
+                            <div class="card hoverable" data-toggle="modal" data-target="#project1">
+                                <picture>
+                                    <source srcset="https://placehold.it/1000x400" media="(max-width:993px)">
+                                    <img class="img-responsive image-spacing rounded-corners" src="https://www.placehold.it/555x300" alt="clickable project's image">
+                                </picture>
+                                <h3 class="text-uppercase">Project</h3>
+                                <p>
+                                    <a href="http://github.com/">Link to project</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts-section" id="contacts">
+                <div class="contacts-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4 fix-position">
+                                <a href="#" class="btn btn-info contacts-button" role="button">
+                                    <i class="fa fa-github contacts-font" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 fix-position">
+                                <a href="#" class="btn btn-info contacts-button" role="button">
+                                    <i class="fa fa-linkedin contacts-font" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 fix-position">
+                                <a href="#" class="btn btn-info contacts-button" role="button">
+                                    <i class="fa fa-twitter contacts-font" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <footer class="footer">
                 <div class="container">
@@ -128,7 +156,7 @@
                         <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive" src="http://www.placehold.it/600x300" alt="clickable project's image">
+                        <img class="img-responsive" src="https://www.placehold.it/600x300" alt="clickable project's image">
                         This was my first project in this class. I learned a lot about HTML and CSS.
                     </div>
                     <div class="modal-footer">

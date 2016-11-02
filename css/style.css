@@ -17,12 +17,16 @@ hr {
 
 img {}
 
+footer {
+  text-align: center;
+}
+
 .text-thin {
     font-weight: 100;
 }
 
 .text-muted {
-    color: #7d97ad;
+    color: white;
 }
 
 .rounded-corners {
@@ -81,16 +85,6 @@ img {}
     text-align: center;
     color: #fff;
     width: 100%;
-    min-height: 100%;
-}
-
-.grayscale_background {
-    background: url(http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG) bottom center no-repeat #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height: 100vh;
 }
 
 .intro-body {
@@ -110,7 +104,7 @@ img {}
     border: none;
     border-radius: 0;
     background-color: transparent;
-    ;
+    padding: 15px 0;
     background: transparent;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -144,4 +138,63 @@ img {}
     border-bottom: 3px;
     border-color: white;
     background: none;
+}
+
+.contacts-section {
+    height: 50vh;
+    background-color: #454545;
+    box-shadow: 4px 8px 17px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.contacts-body {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+.contacts-button {
+  background-color: none;
+  background: none;
+  border: 0;
+  vertical-align: middle;
+}
+
+.contacts-button:hover {
+  background-color: none;
+  background: none;
+  border: 0;
+  border-bottom: 5px solid;
+  border-color: white;
+  border-radius: 10%;
+}
+
+.contacts-button:focus {
+  background: none;
+  background-color: none;
+  border: none;
+}
+
+.contacts-font {
+    color: white;
+    border: 2px;
+    border-color: none;
+    font-size: 5em !important;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.contacts-font:hover {
+  font-size: 10em !important;
+  transition: font-size .3s;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 300px;
+  max-width: 300px;
 }
