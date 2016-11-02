@@ -140,6 +140,12 @@ footer {
     background: none;
 }
 
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background: none;
+  background-color: none;
+  border: none;
+}
+
 .contacts-section {
     height: 50vh;
     background-color: #454545;
