@@ -9,16 +9,13 @@ body {
 }
 
 hr {
-    color: white;
     background-color: white;
     border: none;
     height: 3px;
 }
 
-img {}
-
 footer {
-  text-align: center;
+    text-align: center;
 }
 
 .text-thin {
@@ -27,6 +24,14 @@ footer {
 
 .text-muted {
     color: white;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.divider {
+    margin-bottom: 10px;
 }
 
 .rounded-corners {
@@ -70,13 +75,16 @@ footer {
     max-width: 50%;
 }
 
-.navbar-logo {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .modal-content {
     color: black;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 300px;
+  max-width: 300px;
 }
 
 .intro {
@@ -90,6 +98,73 @@ footer {
 .intro-body {
     display: table-cell;
     vertical-align: middle;
+}
+
+.projects-section {
+  height: 100vh;
+}
+
+.contacts-section {
+  height: 50vh;
+  background-color: #454545;
+  box-shadow: inset 4px 8px 17px 0 rgba(0, 0, 0, 0.2),inset 4px 6px 20px 0 rgba(0, 0, 0, 0.19), inset 0 -5px 10px rgba(0, 0, 0, 0.19);
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+
+.contacts-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.contacts-title {
+  display: table-cell;
+  max-height: 10%;
+  vertical-align: top;
+}
+
+.contacts-button {
+  background-color: none;
+  background: none;
+  border: 0;
+}
+
+.contacts-button:hover {
+  background-color: none;
+  background: none;
+  border: 0;
+  border-bottom: 5px solid;
+  border-color: white;
+  border-radius: 10%;
+}
+
+.contacts-button:active {
+  background: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.contacts-button:focus {
+  background: none;
+  background-color: none;
+  border: none;
+}
+
+.contacts-font {
+  color: white;
+  border: 2px;
+  border-color: none;
+  font-size: 5em !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contacts-font:hover {
+  font-size: 10em !important;
+  transition: font-size .3s;
 }
 
 .navbar-custom .navbar-brand {
@@ -141,67 +216,7 @@ footer {
 }
 
 .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background: none;
-  background-color: none;
-  border: none;
-}
-
-.contacts-section {
-    height: 50vh;
-    background-color: #454545;
-    box-shadow: 4px 8px 17px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: table;
-    text-align: center;
-    width: 100%;
-    margin-top: 30px;
-}
-
-.contacts-body {
-  display: table-cell;
-  vertical-align: middle;
-
-}
-
-.contacts-button {
-  background-color: none;
-  background: none;
-  border: 0;
-  vertical-align: middle;
-}
-
-.contacts-button:hover {
-  background-color: none;
-  background: none;
-  border: 0;
-  border-bottom: 5px solid;
-  border-color: white;
-  border-radius: 10%;
-}
-
-.contacts-button:focus {
-  background: none;
-  background-color: none;
-  border: none;
-}
-
-.contacts-font {
-    color: white;
-    border: 2px;
-    border-color: none;
-    font-size: 5em !important;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-.contacts-font:hover {
-  font-size: 10em !important;
-  transition: font-size .3s;
-}
-
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 300px;
-  max-width: 300px;
+    background: none;
+    background-color: none;
+    border: none;
 }
