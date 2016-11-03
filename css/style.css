@@ -91,8 +91,8 @@ footer {
     display: table;
     height: 100vh;
     text-align: center;
-    background: url("../images/cosmic-dark-ages.jpg") no-repeat;
-    background-size: cover;
+    /*background: url("../images/cosmic-dark-ages.jpg") no-repeat;
+    background-size: cover;*/
     color: #fff;
     width: 100%;
 }
