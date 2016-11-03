@@ -9,8 +9,8 @@ body {
 }
 
 hr {
-    color: #7d97ad;
-    background-color: #7d97ad;
+    color: white;
+    background-color: white;
     border: none;
     height: 3px;
 }
@@ -153,6 +153,7 @@ footer {
     display: table;
     text-align: center;
     width: 100%;
+    margin-top: 30px;
 }
 
 .contacts-body {
