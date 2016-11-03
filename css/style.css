@@ -100,12 +100,8 @@ footer {
     vertical-align: middle;
 }
 
-.projects-section {
-  height: 100vh;
-}
-
 .contacts-section {
-  height: 50vh;
+  height: 70vh;
   background-color: #454545;
   box-shadow: inset 4px 8px 17px 0 rgba(0, 0, 0, 0.2),inset 4px 6px 20px 0 rgba(0, 0, 0, 0.19), inset 0 -5px 10px rgba(0, 0, 0, 0.19);
   display: table;
