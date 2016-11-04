@@ -6,8 +6,28 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .fix-icon-position {
     margin-bottom: 40px;
   }
+
+  .navbar-custom {
+    background-color: #30383B;
+  }
+
+  .navbar-custom .navbar-collapse {
+    background-color: #2D383B;
+    text-align: right;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .scrolled-nav {
+    background-color: #2572DE;
+  }
+
+  .scrolled-nav .navbar-collapse {
+    background-color: #2572DE;
+    text-align: right;
+  }
+
 }

@@ -34,6 +34,10 @@ footer {
     margin-bottom: 10px;
 }
 
+.btn-custom {
+  background-color: #2572DE;
+}
+
 .rounded-corners {
     -webkit-border-top-left-radius: 10px;
     -moz-border-top-left-radius: 10px;
@@ -75,10 +79,6 @@ footer {
     max-width: 50%;
 }
 
-.modal-content {
-    color: black;
-}
-
 .logo {
   display: block;
   margin-left: auto;
@@ -91,8 +91,6 @@ footer {
     display: table;
     height: 100vh;
     text-align: center;
-    /*background: url("../images/cosmic-dark-ages.jpg") no-repeat;
-    background-size: cover;*/
     color: #fff;
     width: 100%;
 }
@@ -217,4 +215,17 @@ footer {
     background: none;
     background-color: none;
     border: none;
+}
+
+.modal-dialog {
+  color: white;
+}
+
+.modal-content {
+  background-color: #3B4447;
+}
+
+
+.modal-body {
+  background-color: #3B4447;
 }
