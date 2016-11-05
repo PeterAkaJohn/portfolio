@@ -1,9 +1,16 @@
 # Portfolio
 
-### TODO:
+### Usage
 
- * add custom styling for example change background, font, paragraph, heading
+* run `python -m SimpleHTTPServer 8000`
 
- * modify layout with the use of bootstrap
+#### or
 
- * add some functionality with gulp (resizing image, minify css and so on)
+* visit https://peterakajohn.github.io/portfolio/
+
+
+### Info
+
+* gulpfile with image task present but not implemented
+
+* images are retrieved from https://unsplash.com/ and they are random (takes 1 or 2 second to load them)
